@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/src/Demo2CppCon/DependencyVisualizer/include -O3 -DNDEBUG -std=c++23 -o CMakeFiles\\DependencyVisualizer.dir\\src\\main.cpp.obj -c C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\main.cpp",
+  "file": "C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\main.cpp",
+  "output": "CMakeFiles\\DependencyVisualizer.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/src/Demo2CppCon/DependencyVisualizer/include -O3 -DNDEBUG -std=c++23 -o CMakeFiles\\DependencyVisualizer.dir\\src\\dependency_scanner.cpp.obj -c C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\dependency_scanner.cpp",
+  "file": "C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\dependency_scanner.cpp",
+  "output": "CMakeFiles\\DependencyVisualizer.dir\\src\\dependency_scanner.cpp.obj"
+},
+{
+  "directory": "C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/src/Demo2CppCon/DependencyVisualizer/include -O3 -DNDEBUG -std=c++23 -o CMakeFiles\\DependencyVisualizer.dir\\src\\dot_generator.cpp.obj -c C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\dot_generator.cpp",
+  "file": "C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\dot_generator.cpp",
+  "output": "CMakeFiles\\DependencyVisualizer.dir\\src\\dot_generator.cpp.obj"
+},
+{
+  "directory": "C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/src/Demo2CppCon/DependencyVisualizer/include -O3 -DNDEBUG -std=c++23 -o CMakeFiles\\DependencyVisualizer.dir\\src\\graphviz_runner.cpp.obj -c C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\graphviz_runner.cpp",
+  "file": "C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\graphviz_runner.cpp",
+  "output": "CMakeFiles\\DependencyVisualizer.dir\\src\\graphviz_runner.cpp.obj"
+},
+{
+  "directory": "C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/src/Demo2CppCon/DependencyVisualizer/include -O3 -DNDEBUG -std=c++23 -o CMakeFiles\\DependencyVisualizer.dir\\src\\image_opener.cpp.obj -c C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\image_opener.cpp",
+  "file": "C:\\src\\Demo2CppCon\\DependencyVisualizer\\src\\image_opener.cpp",
+  "output": "CMakeFiles\\DependencyVisualizer.dir\\src\\image_opener.cpp.obj"
+}
+]

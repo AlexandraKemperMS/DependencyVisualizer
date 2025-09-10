@@ -1,3 +1,0 @@
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/CMakeFiles/DependencyVisualizer.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/CMakeFiles/edit_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/CMakeFiles/rebuild_cache.dir

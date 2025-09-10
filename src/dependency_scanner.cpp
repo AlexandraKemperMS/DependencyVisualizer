@@ -1,4 +1,5 @@
 #include "dependency_scanner.hpp"
+#include <algorithm>
 #include <filesystem>
 #include <fstream>
 #include <regex>

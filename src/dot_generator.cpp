@@ -13,7 +13,7 @@ void generate_dot(const std::string& dot_path, const DependencyMap& deps) {
     }
     std::cout << "[generate_dot] Writing DOT file: " << dot_path << " (absolute: " << std::filesystem::absolute(dot_path) << ")\n";
     dot << "digraph dependencies {\n";
-    dot << "  node [shape=box];\n";
+    dot << "  node [shape=box, style=filled, fillcolor=white];\n";
     std::unordered_set<std::string> all_nodes;
     for (const auto& [file, includes] : deps) {
         all_nodes.insert(file);

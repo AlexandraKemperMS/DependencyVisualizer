@@ -1,4 +1,5 @@
 #include "dot_generator.hpp"
+#include <filesystem>
 #include <fstream>
 #include <string>
 #include <unordered_set>

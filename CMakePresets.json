@@ -26,6 +26,30 @@
         "CMAKE_BUILD_TYPE": "Release",
         "CMAKE_CXX_COMPILER": "g++.exe"
       }
+    },
+    {
+      "name": "unix-release",
+      "displayName": "Unix Release",
+      "inherits": ["default"],
+      "description": "Release build using GCC on Unix/Linux systems.",
+      "binaryDir": "${sourceDir}/build/unix-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "mingw-release",
+      "displayName": "MinGW Release Build",
+      "configurePreset": "mingw-release",
+      "description": "Build using MinGW Release configuration"
+    },
+    {
+      "name": "unix-release", 
+      "displayName": "Unix Release Build",
+      "configurePreset": "unix-release",
+      "description": "Build using Unix Release configuration"
     }
   ]
 }

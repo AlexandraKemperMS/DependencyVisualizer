@@ -1,0 +1,37 @@
+# Build directories
+build/
+*/build/
+
+# Generated output files
+dependencies.dot
+dependencies.png
+
+# IDE files
+.vscode/
+.vs/
+*.user
+*.vcxproj.user
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake

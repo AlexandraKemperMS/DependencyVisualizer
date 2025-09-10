@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\DependencyVisualizer.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\DependencyVisualizer.dir/objects.a @CMakeFiles\DependencyVisualizer.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\DependencyVisualizer.dir/objects.a -Wl,--no-whole-archive -o DependencyVisualizer.exe -Wl,--out-implib,libDependencyVisualizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DependencyVisualizer.dir\linkLibs.rsp
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/DependencyVisualizer.dir/link.d CMakeFiles/DependencyVisualizer.dir/src/main.cpp.o CMakeFiles/DependencyVisualizer.dir/src/dependency_scanner.cpp.o CMakeFiles/DependencyVisualizer.dir/src/dot_generator.cpp.o CMakeFiles/DependencyVisualizer.dir/src/graphviz_runner.cpp.o CMakeFiles/DependencyVisualizer.dir/src/image_opener.cpp.o -o DependencyVisualizer

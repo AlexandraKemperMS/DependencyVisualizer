@@ -5,3 +5,9 @@
 47	6304	7791826655563925	CMakeFiles/DependencyVisualizer.dir/src/main.cpp.obj	7aaa26f8a4aa6804
 59	10803	7791826655668812	CMakeFiles/DependencyVisualizer.dir/src/dependency_scanner.cpp.obj	c54c7b7b5d7650eb
 10804	11465	7791826763073059	DependencyVisualizer.exe	31bbdbe205b6bcc6
+126	2276	7792296431517722	CMakeFiles/DependencyVisualizer.dir/src/image_opener.cpp.obj	dd99b0153d2fc02a
+115	2295	7792296431397662	CMakeFiles/DependencyVisualizer.dir/src/graphviz_runner.cpp.obj	a9de072203f0e648
+88	4769	7792296431137130	CMakeFiles/DependencyVisualizer.dir/src/main.cpp.obj	7aaa26f8a4aa6804
+108	4880	7792296431327648	CMakeFiles/DependencyVisualizer.dir/src/dot_generator.cpp.obj	3415568659bf4577
+102	9080	7792296431272335	CMakeFiles/DependencyVisualizer.dir/src/dependency_scanner.cpp.obj	c54c7b7b5d7650eb
+9080	9670	7792296521059649	DependencyVisualizer.exe	31bbdbe205b6bcc6

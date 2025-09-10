@@ -1,0 +1,47 @@
+# Build directories
+build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Ninja build files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Object files
+*.o
+*.obj
+
+# Generated output files
+dependencies.dot
+dependencies.png
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

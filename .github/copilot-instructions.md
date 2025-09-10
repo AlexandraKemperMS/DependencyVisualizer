@@ -31,6 +31,3 @@
   - Warnings: `-Wall -Wextra -Wpedantic` and **treat warnings as errors** in CI.
   - Debug builds enable sanitizers (`address,undefined`) when supported.
 - Create a simple **`cmake -S . -B build && cmake --build build`** flow and a `ctest` target if tests are added.
-
-**Demonstration hints (make it visible)**
-- Show examples using `enum class`, RAII, `std::span`, `std::optional`, no `using namespace std`, and modern loops/algorithms.

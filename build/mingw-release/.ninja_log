@@ -1,0 +1,12 @@
+# ninja log v7
+56	11010	7791873060078255	CMakeFiles/DependencyVisualizer.dir/src/main.cpp.obj	715f56386d768cc8
+11014	11301	7791873169647844	DependencyVisualizer.exe	eada59f36f63894b
+50	1048	7791874913765208	build.ninja	9a5ddff788697b3f
+72	732	7791874915153624	CMakeFiles/DependencyVisualizer.dir/src/graphviz.cpp.obj	62b667ea5312537c
+67	976	7791874915105379	CMakeFiles/DependencyVisualizer.dir/src/dotgen.cpp.obj	63bde7d73760df56
+44	1623	7791874914885099	CMakeFiles/DependencyVisualizer.dir/src/main.cpp.obj	144353e48ca24c11
+51	1764	7791874914956409	CMakeFiles/DependencyVisualizer.dir/src/scanner.cpp.obj	d50248b91f864f3e
+59	2932	7791874915038643	CMakeFiles/DependencyVisualizer.dir/src/parser.cpp.obj	13f48c0968923193
+2932	3092	7791874943758818	DependencyVisualizer.exe	6446a9990b20bbce
+3	1051	7791875864042016	CMakeFiles/DependencyVisualizer.dir/src/dotgen.cpp.obj	63bde7d73760df56
+1052	1199	7791875874531752	DependencyVisualizer.exe	6446a9990b20bbce

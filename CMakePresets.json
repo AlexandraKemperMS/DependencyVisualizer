@@ -1,0 +1,34 @@
+{
+  "version": 4,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": false,
+      "generator": "Ninja",
+      "description": "Default build",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "mingw-release",
+      "generator": "Ninja",
+      "description": "MinGW Release build",
+      "binaryDir": "${sourceDir}/build/mingw-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "toolchainFile": ""
+    }
+  ]
+}

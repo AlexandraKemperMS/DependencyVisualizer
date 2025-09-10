@@ -1,0 +1,3 @@
+C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release/CMakeFiles/DependencyVisualizer.dir
+C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release/CMakeFiles/edit_cache.dir
+C:/src/Demo2CppCon/DependencyVisualizer/build/mingw-release/CMakeFiles/rebuild_cache.dir

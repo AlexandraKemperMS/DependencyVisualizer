@@ -2,7 +2,7 @@
 # C++ Coding Preferences 
 
 **General**
-- Target **C++23** where available; otherwise **C++20**. Prefer standard library features over third‑party deps. Avoid adding dependencies unless I ask.
+- Target **C++23** where available; otherwise **C++20**. Prefer standard library features over third‑party deps. 
 - **No raw `new`/`delete`**. Use RAII and smart pointers (`std::unique_ptr` first; `std::shared_ptr` only when shared ownership is required).
 - **Do not** write `using namespace std;`. Qualify names or use selective `using`.
 - Favor **`const` correctness**, **`constexpr`**, **`noexcept`** where appropriate.
@@ -28,6 +28,4 @@
 **Build & Tooling (for generated scaffolding)**
 - Use **CMake** with out‑of‑source builds. Default to:
   - C++ standard set to **23** (fallback to 20).
-  - Warnings: `-Wall -Wextra -Wpedantic` and **treat warnings as errors** in CI.
   - Debug builds enable sanitizers (`address,undefined`) when supported.
-- Create a simple **`cmake -S . -B build && cmake --build build`** flow and a `ctest` target if tests are added.

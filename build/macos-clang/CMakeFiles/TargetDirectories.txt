@@ -1,7 +1,0 @@
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/dependency-visualizer.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/edit_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/rebuild_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/list_install_components.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/install.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/install/local.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/install/strip.dir

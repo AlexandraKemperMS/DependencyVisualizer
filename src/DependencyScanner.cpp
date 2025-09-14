@@ -2,24 +2,26 @@
 #include <filesystem>
 #include <fstream>
 #include <regex>
+#include <array>
 
 namespace fs = std::filesystem;
 
-bool DependencyScanner::is_cpp_file(const std::string& filename) {
-    static const std::vector<std::string> exts = {".cpp", ".hpp", ".h", ".cxx", ".cc", ".hxx"};
+bool DependencyScanner::is_cpp_file(const std::string& filename) noexcept {
+    static constexpr std::array<std::string_view, 6> exts = {".cpp", ".hpp", ".h", ".cxx", ".cc", ".hxx"};
     for (const auto& ext : exts) {
-        if (filename.size() >= ext.size() && filename.substr(filename.size() - ext.size()) == ext)
+        if (filename.size() >= ext.size() && filename.substr(filename.size() - ext.size()) == ext) {
             return true;
+        }
     }
     return false;
 }
 
-std::string DependencyScanner::extract_include(const std::string& line) {
+std::string DependencyScanner::extract_include(std::string_view line) {
     static const std::regex include_regex(R"(^\s*#\s*include\s*[<"]([^"]+)[">])");
-    std::smatch match;
-    if (std::regex_search(line, match, include_regex)) {
+    std::match_results<std::string_view::const_iterator> match;
+    if (std::regex_search(line.begin(), line.end(), match, include_regex)) {
         std::string inc = match[1];
-        auto pos = inc.find_last_of("/");
+        auto pos = inc.find_last_of('/');
         return pos == std::string::npos ? inc : inc.substr(pos + 1);
     }
     return {};
@@ -28,10 +30,11 @@ std::string DependencyScanner::extract_include(const std::string& line) {
 void DependencyScanner::scan_file(const std::string& file_path, DependencyGraph& graph) {
     std::ifstream file(file_path);
     if (!file) return;
-    std::string filename = fs::path(file_path).filename().string();
+    
+    const std::string filename = fs::path(file_path).filename().string();
     std::string line;
     while (std::getline(file, line)) {
-        std::string dep = extract_include(line);
+        const std::string dep = extract_include(line);
         if (!dep.empty()) {
             graph[filename].insert(dep);
         }

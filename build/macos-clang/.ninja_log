@@ -1,8 +1,8 @@
 # ninja log v7
-1	45	1757826971789437119	/Users/alexandrakemper/DependencyVisualizer-1/build/macos-clang/CMakeFiles/cmake.verify_globs	3bcc147bc024ae00
-46	1340	1757826971834258282	CMakeFiles/dependency-visualizer.dir/src/OpenImage.cpp.o	aeeff061e89d7bc9
-46	1344	1757826971834038228	CMakeFiles/dependency-visualizer.dir/src/GraphvizRunner.cpp.o	f6cf69f33904e8b
-46	1983	1757826971834540425	CMakeFiles/dependency-visualizer.dir/src/main.cpp.o	a42612c25c3397fd
-45	1995	1757826971833803797	CMakeFiles/dependency-visualizer.dir/src/DotGenerator.cpp.o	4590116f14112ad9
-45	2926	1757826971833495316	CMakeFiles/dependency-visualizer.dir/src/DependencyScanner.cpp.o	f8509f6ff1f5e8b2
-2926	3351	1757826974714408816	dependency-visualizer	ac262d481a106051
+1	3	1757827246090771654	/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/macos-clang/CMakeFiles/cmake.verify_globs	225666c2a1eb0f0e
+4	2182	1757827246093771662	CMakeFiles/dependency-visualizer.dir/src/GraphvizRunner.cpp.o	a7e6d7fe939b9c95
+4	2182	1757827246093771662	CMakeFiles/dependency-visualizer.dir/src/OpenImage.cpp.o	1554e3a11367411a
+4	2468	1757827246093771662	CMakeFiles/dependency-visualizer.dir/src/DotGenerator.cpp.o	d703bc9b11ccb67e
+5	2713	1757827246094771665	CMakeFiles/dependency-visualizer.dir/src/main.cpp.o	67a8cc913ff46e89
+3	4287	1757827246092771660	CMakeFiles/dependency-visualizer.dir/src/DependencyScanner.cpp.o	9707b6463e725ee3
+4287	4379	1757827250376783270	dependency-visualizer	d61b05cbc296155a

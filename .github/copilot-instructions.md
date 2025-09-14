@@ -2,7 +2,7 @@
 # C++ Coding Preferences 
 
 **General**
-- Target **C++23** where available; otherwise **C++20**. Prefer standard library features over third‑party deps. 
+- Target **C++20** where available. Prefer standard library features over third‑party deps. 
 - **No raw `new`/`delete`**. Use RAII and smart pointers (`std::unique_ptr` first; `std::shared_ptr` only when shared ownership is required).
 - **Do not** write `using namespace std;`. Qualify names or use selective `using`.
 - Favor **`const` correctness**, **`constexpr`**, **`noexcept`** where appropriate.

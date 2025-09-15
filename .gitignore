@@ -1,0 +1,16 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Generated dependency files
+dependencies.dot
+dependencies.png
+
+# Object files and executables
+*.o
+*.exe
+DependencyVisualizer
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/DependencyVisualizer.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/edit_cache.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/list_install_components.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/install.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/install/local.dir
+/Users/alexandrakemper/DependencyVisualizer-1/build/macos-debug/CMakeFiles/install/strip.dir

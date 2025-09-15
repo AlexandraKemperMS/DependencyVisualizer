@@ -7,7 +7,23 @@ namespace fs = std::filesystem;
 DependencyScanner::DependencyMap DependencyScanner::scan_directory(const fs::path& root) {
     DependencyMap deps;
     std::regex include_regex(R"(^\s*#\s*include\s*[<\"]([^\">]+)[\">])");
-    for (auto& p : fs::recursive_directory_iterator(root)) {
+    
+    // Use explicit iterator to allow calling disable_recursion_pending()
+    for (auto it = fs::recursive_directory_iterator(root); it != fs::recursive_directory_iterator(); ++it) {
+        const auto& p = *it;
+        
+        // Skip hidden directories and common build directories
+        if (p.is_directory()) {
+            std::string dirname = p.path().filename().string();
+            if (dirname.starts_with('.') || 
+                dirname == "build" || 
+                dirname == "cmake-build-debug" || 
+                dirname == "cmake-build-release") {
+                it.disable_recursion_pending();
+                continue;
+            }
+        }
+        
         if (!p.is_regular_file()) continue;
         auto ext = p.path().extension().string();
         if (ext != ".cpp" && ext != ".hpp" && ext != ".h" && ext != ".cxx" && ext != ".cc") continue;

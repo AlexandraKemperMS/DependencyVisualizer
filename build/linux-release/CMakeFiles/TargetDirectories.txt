@@ -1,7 +1,0 @@
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/DependencyVisualizer.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/edit_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/rebuild_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/list_install_components.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/install.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/install/local.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build/linux-release/CMakeFiles/install/strip.dir

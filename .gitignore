@@ -1,0 +1,25 @@
+# Build directories
+build*/
+*build/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.vcxproj*
+*.sln
+
+# Output files (optional - remove if you want to track them)
+dependencies.dot
+dependencies.png

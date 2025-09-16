@@ -1,7 +1,0 @@
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/DependencyVisualizer.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/edit_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/rebuild_cache.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/list_install_components.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/install.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/install/local.dir
-/home/runner/work/DependencyVisualizer/DependencyVisualizer/build-test/CMakeFiles/install/strip.dir

@@ -1,7 +1,0 @@
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/DependencyVisualizer.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/edit_cache.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/rebuild_cache.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/list_install_components.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/install.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/install/local.dir
-/Users/alexandrakemper/DependencyVisualizer-1/build/default/CMakeFiles/install/strip.dir

@@ -1,0 +1,15 @@
+digraph dependencies {
+  node [color=blue, style=filled, fillcolor=lightblue];
+  "main.cpp" -> "PlatformOpener.hpp";
+  "main.cpp" -> "DotGenerator.hpp";
+  "main.cpp" -> "GraphvizRunner.hpp";
+  "main.cpp" -> "DependencyScanner.hpp";
+  "DependencyScanner.cpp" -> "DependencyScanner.hpp";
+  "PlatformOpener.hpp";
+  "PlatformOpener.cpp" -> "PlatformOpener.hpp";
+  "DotGenerator.cpp" -> "DotGenerator.hpp";
+  "DependencyScanner.hpp";
+  "GraphvizRunner.cpp" -> "GraphvizRunner.hpp";
+  "GraphvizRunner.hpp";
+  "DotGenerator.hpp" -> "DependencyScanner.hpp";
+}

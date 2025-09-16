@@ -1,0 +1,10 @@
+# ninja log v7
+1	748	1758001503661306194	CMakeFiles/DependencyVisualizer.dir/src/GraphvizRunner.cpp.o	2c2503126aaedde8
+2	752	1758001503661549689	CMakeFiles/DependencyVisualizer.dir/src/PlatformOpener.cpp.o	c605e31de32c2e11
+1	1335	1758001503661024392	CMakeFiles/DependencyVisualizer.dir/src/DotGenerator.cpp.o	11a152e826e0f0cc
+0	1361	1758001503660477779	CMakeFiles/DependencyVisualizer.dir/src/main.cpp.o	1523010ac582f5cc
+1	2988	1758001503660780385	CMakeFiles/DependencyVisualizer.dir/src/DependencyScanner.cpp.o	5ee02ba05d952b03
+2988	3075	1758001506647869468	DependencyVisualizer	8b22acb7cea402e6
+8	1278	1758001652178800710	CMakeFiles/DependencyVisualizer.dir/src/DotGenerator.cpp.o	11a152e826e0f0cc
+8	2974	1758001652178420370	CMakeFiles/DependencyVisualizer.dir/src/DependencyScanner.cpp.o	5ee02ba05d952b03
+2974	3069	1758001655144805978	DependencyVisualizer	8b22acb7cea402e6
